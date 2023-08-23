@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { CONFIGURATION } from 'src/global/configuration';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +6,5 @@ import { CONFIGURATION } from 'src/global/configuration';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  nombre = CONFIGURATION.appName;
+
 }
