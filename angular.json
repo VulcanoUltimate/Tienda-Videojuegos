@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "tiendaVideojuegos:build:production"
+              "buildTarget": "tiendaVideojuegos:build:production"
             },
             "development": {
-              "browserTarget": "tiendaVideojuegos:build:development"
+              "buildTarget": "tiendaVideojuegos:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "tiendaVideojuegos:build"
+            "buildTarget": "tiendaVideojuegos:build"
           }
         },
         "test": {
