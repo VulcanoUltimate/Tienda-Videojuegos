@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { CONFIGURATION } from 'src/global/configuration';
+// import { CONFIGURATION } from 'src/global/configuration';
+import { CONFIGURATION } from '../../global/configuration';
 
 @Component({
   selector: 'app-body',
