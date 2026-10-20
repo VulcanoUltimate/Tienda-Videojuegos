@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { CONFIGURATION } from 'src/global/configuration';
-import { ORDER } from 'src/global/filters';
+import { CONFIGURATION } from 'global/configuration';
+import { ORDER } from 'global/filters';
 
 @Component({
   selector: 'app-header',
